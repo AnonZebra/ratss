@@ -1,0 +1,18 @@
+Package: ratss
+Type: Package
+Title: Handles data from synesthesia consistency test
+Version: 0.1
+Author: Lowe Wilsson
+Maintainer: Lowe Wilsson <lowe.wilsson@ki.se>
+Description: This package was developed for use at the Center of 
+    Neurodevelopmental Disorders at Karolinska Institutet (KIND). Its
+    applicability is highly narrow and specific. It has simple functions for
+    converting study ID's to user names, Swedish personal numbers to birth dates,
+    and finding and cleaning up RATSS user names.
+Depends: R (>= 3.6.0)
+Imports: 
+    stringr (>= 1.4.0)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
