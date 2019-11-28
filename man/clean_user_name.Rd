@@ -11,7 +11,7 @@ clean_user_name(entries)
 }
 \description{
 Takes a character vector of  entries that
-have a user name in them in the format "<digit/digits>_<single digit>"
+have a user name in the format "<digit/digits>_<single digit>"
 somewhere in them, extracts only the user names and returns a vector
 with those.
 }
@@ -24,6 +24,7 @@ the entry string (e. g. "99102_2", with 102_2 being the username, doesn't work).
 \examples{
 foo <- c("Twin202_2", "313_5", "1_2", "1_1", "randomchars12_2fillout")
 clean_user_name(foo)
+
 }
 \seealso{
 \code{\link[stringr]{str_extract}}
