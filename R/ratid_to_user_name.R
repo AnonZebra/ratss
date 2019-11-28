@@ -19,7 +19,7 @@
 #' ratid_to_user_name(x)
 #' y <- "110104010114"
 #' ratid_to_user_name(y)
-#' mult_ids <- c("110104010114", "110804010174")
+#' mult_ids <- c("110104010114", "110204050174", "190004030104")
 #' ratid_to_user_name(mult_ids)
 #'
 #' @export
